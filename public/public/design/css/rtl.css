@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Noto Kufi Arabic';
+    font-style: normal;
+    font-weight: 400;
+    src: url("<?php echo base_url();?>public/dist/fonts/NotoKufiArabic-Regular.eot");
+    src: url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Regular.eot);
+    src: url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Regular.eot?#iefix) format('embedded-opentype'),
+         url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Regular.woff2) format('woff2'),
+         url("<?php echo base_url();?>public/dist/fonts/NotoKufiArabic-Regular.woff2") format('woff2'),
+         url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Regular.woff) format('woff'),
+         url("<?php echo base_url();?>public/dist/fonts/NotoKufiArabic-Regular.woff") format('woff'),
+         url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Regular.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Noto Kufi Arabic';
+    font-style: normal;
+    font-weight: 700;
+    src: url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Bold.eot);
+    src: url("<?php echo base_url();?>public/dist/fonts/NotoKufiArabic-Bold.eot");
+    src: url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Bold.eot?#iefix) format('embedded-opentype'),
+         url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Bold.woff2) format('woff2'),
+         url("<?php echo base_url();?>public/dist/fonts/NotoKufiArabic-Bold.woff2") format('woff2'),
+         url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Bold.woff) format('woff'),
+         url("<?php echo base_url();?>public/dist/fonts/NotoKufiArabic-Bold.woff") format('woff'),
+         url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Bold.ttf) format('truetype'),
+         url("<?php echo base_url();?>public/dist/fonts/NotoKufiArabic-Bold.ttf") format('truetype');
+  }
+  body {background-color: #f8f8f8;font-family: 'Noto Kufi Arabic' ,'AnjaliOldipi','Sans-serif' ,'Tahoma';  }
+  .sidebar-menu li a .fa-angle-left,
+  h1,h2,h3,h4,h5,h6,a,span.lbl{font-family:'Noto Kufi Arabic' ,'AnjaliOldipi','Sans-serif' ,'Tahoma';}
+  .select2-results{direction: rtl;}
+  .select2-container--default .select2-selection--multiple {direction: rtl;padding-right: 5px;}
+  .main-content, body, html {direction: rtl;}  
+  .rtl ol, .rtl ul {margin-right: 7px;margin-left: 0;}
+  .gritter-light .gritter-title{font-family: 'Noto Kufi Arabic';direction: right;}
+  .gritter-item p {font-family: 'Noto Kufi Arabic';direction: right;}
+  .rtl ol, .rtl ul {margin-right: 7px;margin-left: 0;}
+  .fc-view-container *, .fc-view-container :after, .fc-view-container :before {
+     direction: rtl; text-align: right;    font-size: 14px; }
+ 

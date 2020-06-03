@@ -1,0 +1,14 @@
+html, body{height: 100%;}
+.header-top{background-color: rgba(173, 19, 19, 0.85);line-height:2.5;height: 40px;}
+header {background-color: rgba(173, 19, 19, 0.85);}
+header a{color:white;}
+header a:hover{color:white;}
+section{ height: 100%;margin: 20px 0;}
+.zsx {background-color: rgba(173, 19, 19, 0.85);}
+.zsx h1, .zsx h3{text-align:center;color:#fff;}
+.zsx h1{font-size:55px;font-family:'Buenard', serif;font-weight:bold;text-transform:inherit;margin: 0px auto 0px;text-shadow: 2px 2px 2px #000;
+        -webkit-text-shadow: 2px 2px 2px #000;-moz-text-shadow: 2px 2px 2px #000;}
+.zsx h3{font-size: 25px;font-weight:lighter;margin: 0px auto 15px;}
+footer{height:75px;background-color:#940a01;}
+footer p{text-align: center;line-height: 65px;font-size: 16px;color: #fff;}
+.breadcrumb {padding: 8px 15px;margin-bottom: 0px;list-style: none;background-color: transparent;}
